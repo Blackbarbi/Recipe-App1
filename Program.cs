@@ -4,7 +4,7 @@
 {
     static void Main(string[] args)
     {
-        //Create a new Recipe object
+        //A new Recipe object is created 
         Recipe recipe = new Recipe();
         bool continueEntering = true;
 
@@ -47,7 +47,7 @@
 
                     break;
                 default:
-                    Console.WriteLine(" you have entered a wrong item .");
+                    Console.WriteLine(" You have entered a wrong item .");
                     break;
             }
         }
@@ -58,7 +58,7 @@ class Recipe
 {
     private string[] Ingredients;
     private string[] steps;
-
+//Get recipe deatils from the user
     public void RecipeDetails()
     {
         Console.WriteLine("How many  ingredients do  you want to enter ? :");
@@ -110,8 +110,8 @@ class Recipe
 
     public void ResetValues()
     {
-        // Return amounts to their starting points.
-        //assuming that after entering the recipe specifics, the previous values remain unchanged
+        // Return the  amounts to their starting points.
+        //Assuming that after entering the recipe specifics, the previous values remain unchanged
     }
     //clear the Recipe data 
     public void Clear()

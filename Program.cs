@@ -113,7 +113,7 @@ class Recipe
         // Return amounts to their starting points.
         //assuming that after entering the recipe specifics, the previous values remain unchanged
     }
-    //clear 
+    //clear the Recipe data 
     public void Clear()
     {
 
